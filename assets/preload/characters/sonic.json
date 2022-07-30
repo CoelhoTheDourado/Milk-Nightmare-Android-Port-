@@ -1,0 +1,178 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Sonic idle"
+		},
+		{
+			"offsets": [
+				22,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Sonic left"
+		},
+		{
+			"offsets": [
+				-8,
+				-18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sonic down"
+		},
+		{
+			"offsets": [
+				-50,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sonic up"
+		},
+		{
+			"offsets": [
+				-12,
+				-32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "MISS Sonic down"
+		},
+		{
+			"offsets": [
+				-51,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "MISS Sonic up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-16
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "MISS Sonic left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-53,
+				0
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "MISS Sonic right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			],
+			"name": "GAME OVER"
+		},
+		{
+			"offsets": [
+				-7,
+				-5
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "GAME OVER loop"
+		},
+		{
+			"offsets": [
+				-7,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "GAME OVER enter"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				9
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sonic right",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sonic fw",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "sonic icons",
+	"flip_x": true,
+	"healthbar_colors": [
+		35,
+		70,
+		247
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
